@@ -1,0 +1,118 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/k-team/khepera2/protos/Khepera2.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/lights/protos/ConstructionLamp.proto"
+
+WorldInfo {
+  info [
+    "The model of the Khepera II robot"
+  ]
+  title "Khepera II"
+}
+Viewpoint {
+  orientation 0.7215403764168913 -0.0004910050078476044 -0.6923721861212029 3.14253103088599
+  position -0.10286685345279581 -0.0455446167751579 3.3975548055651017
+  follow "khepera2"
+}
+TexturedBackground {
+}
+RectangleArena {
+  floorSize 2 2
+}
+ConstructionLamp {
+  translation -0.71 0 0.07
+  rotation 0 0 1 0.1308996938995747
+  spotLightIntensity 3
+}
+WoodenBox {
+  translation -0.16189 -0.377482 0.05
+  rotation -0.45445591677276886 -0.7661198596958863 0.45445591677276886 -1.8341153071795864
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.148444 -0.173768 0.05
+  rotation 0.5257598832558195 0.6686958515171056 -0.5257588832560415 1.96278
+  name "wooden box(5)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.0345219 0.0287839 0.05
+  rotation 0.5257598832558195 0.6686958515171056 -0.5257588832560415 1.96278
+  name "wooden box(6)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.0564074 0.205219 0.05
+  rotation 0.5257598832558195 0.6686958515171056 -0.5257588832560415 1.96278
+  name "wooden box(7)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.241047 0.250059 0.05
+  rotation 0.5257598832558195 0.6686958515171056 -0.5257588832560415 1.96278
+  name "wooden box(8)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.474279 0.306699 0.05
+  rotation 0.5257598832558195 0.6686958515171056 -0.5257588832560415 1.96278
+  name "wooden box(9)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.292308 0.42038 0.0499999
+  rotation 0.6249244593805767 0.46791034395985054 -0.6249234593798416 2.2663
+  name "wooden box(10)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.573654 -0.0485035 0.049996
+  rotation -0.12634796090434602 0.9839066955512742 -0.12634796090434602 -1.5870153071795858
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.104246 -0.388095 0.0500013
+  rotation -0.12634796090434602 0.9839066955512742 -0.12634796090434602 -1.5870153071795858
+  name "wooden box(11)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.5 -0.35471 0.05
+  rotation -1.46018e-08 7.19235e-09 -1 0.915365
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.3 0.36 0.05
+  rotation -0.3063990552359414 0.9012431624711751 -0.3063990552359414 -1.6745853071795862
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.51355 -0.182589 0.05
+  rotation -0.3063990552359414 0.9012431624711751 -0.3063990552359414 -1.6745853071795862
+  name "wooden box(12)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.642692 0.247906 0.0499997
+  rotation -0.3063990552359414 0.9012431624711751 -0.3063990552359414 -1.6745853071795862
+  name "wooden box(13)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.65 -0.66 0.05
+  rotation -0.3063990552359414 0.9012431624711751 -0.3063990552359414 -1.6745853071795862
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+Khepera2 {
+  translation 0.837052 -0.459016 0
+  rotation 0 0 1 -2.3349749989208384
+  name "khepera2"
+  controller "breitenberg_light"
+}
